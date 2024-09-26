@@ -1,22 +1,24 @@
 body {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  background-color: #f4f4f4;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #444;
+  background-color: #eafaf1; /* Fondo verde menta claro */
 }
 
 .page-header {
-  background-color: #333;
+  background-color: #7fc8a9; /* Verde menta */
   color: #fff;
-  padding: 20px;
-  border-bottom: 5px solid #c33;
+  padding: 30px;
+  border-bottom: 5px solid #5fbf94; /* Bordes con verde menta más oscuro */
+  text-align: center; /* Centra horizontalmente */
 }
 
 .page-header h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
+  text-align: center; /* Centra el texto */
 }
 
 .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -26,27 +28,28 @@ body {
 
 .post {
   background-color: #fff;
-  padding: 20px;
+  padding: 25px;
   margin-bottom: 40px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d7e9dd; /* Verde menta claro para los bordes */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .post h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   margin-top: 0;
 }
 
 .post h2 a, .post h2 a:visited {
-  color: #333;
+  color: #4f716f; /* Verde más oscuro para los títulos */
   text-decoration: none;
 }
 
 .post .date {
-  color: #777;
+  color: #7fa09f;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .post .actions {
@@ -55,65 +58,64 @@ body {
 
 .btn {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 10px 18px;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .btn-primary {
-  background-color: #c33;
+  background-color: #5fbf94; /* Botón verde menta oscuro */
   color: #fff;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #a22;
+  background-color: #4ba97f; /* Efecto hover verde menta más intenso */
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: #c33;
-  border: 1px solid #c33;
+  color: #7fc8a9;
+  border: 1px solid #7fc8a9;
 }
 
 .btn-secondary:hover {
-  background-color: #c33;
+  background-color: #7fc8a9;
   color: #fff;
 }
-
 
 .post-form textarea,
 .post-form input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .save {
   float: right;
-  background-color: #c33;
+  background-color: #4ba97f;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 25px;
   font-size: 16px;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .save:hover {
-  background-color: #a22;
+  background-color: #3b8c6b;
 }
 
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-  color: #f5f5f5;
+  color: #faf9f6;
   float: right;
-  font-size: 30px;
-  margin-right: 30px;
+  font-size: 28px;
+  margin-right: 25px;
 }
